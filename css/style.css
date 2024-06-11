@@ -89,6 +89,12 @@ ul{
     margin: auto;
 }
 
+.container-cards{
+    max-width: 1100px;
+    width: 100%;
+    margin: auto;
+}
+
 .section .container{
     padding-top: 60px;
     padding-bottom: 70px;
@@ -612,6 +618,7 @@ h3.my-profession{
     border-radius: 10px;
     overflow: hidden;
     cursor: pointer;
+    color: var(--text-black-900);
 }
 
 .portfolio .portfolio-item-inner .portfolio-img img{
