@@ -433,7 +433,29 @@
                         <div class="contact-form padd-15">
                             <div class="row">
                                 <div class="form-item col-6 padd-15">
-                                    <div class="form-group">
+                                    <form action="https://formspree.io/f/mbjnvzzw" method="POST"
+                                        class="row g-lg-3 gy-3">
+                                        <label class="form-item col-12 padd-15">
+                                            <input name="Name" class="form-control" placeholder="Naam"
+                                                required></input>
+                                        </label>
+                                        <label class="form-item col-6 padd-15">
+                                            <input type="Email" class="form-control" name="Email"
+                                                placeholder="Enter your email" required></input>
+                                        </label>
+                                        <label class="form-item col-6 padd-15">
+                                            <input name="Subject" class="form-control" placeholder="Onderwerp"
+                                                required></input>
+                                        </label>
+                                        <label class="form-item col-6 padd-15">
+                                            <textarea name="Message" rows="4" class="form-control"
+                                                placeholder="Bericht" required></textarea>
+                                        </label>
+                                        <div class="form-item col-12 padd-15">
+                                            <button type="submit" class="btn btn-brand">Verstuur bericht</button>
+                                        </div>
+                                    </form>
+                                    <!-- <div class="form-group">
                                         <input type="text" class="form-control" placeholder="Naam" />
                                     </div>
                                 </div>
@@ -461,11 +483,13 @@
                                 <div class="form-item col-12 padd-15">
                                     <button type="submit" class="btn">Verstuur bericht</button>
                                 </div>
+                            </div> -->
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <!-- <section id="contact" class="full-height px-lg-5">
+
+
+                        <!-- <section id="contact" class="full-height px-lg-5">
                     <div class="container">
                       <div class="row justify-content-center text-center">
                         <div class="col-lg-8 pb-4" data-aos="fade-up">
@@ -473,23 +497,7 @@
                           <h1>Contact me</h1>
                         </div>
                         <div class="col-lg-8" data-aos="fade-up" data-aos-delay="300">
-                          <form action="https://formspree.io/f/mbjnvzzw" method="POST" class="row g-lg-3 gy-3">
-                            <label class="form-group col-md-6">
-                              <input name="Name"  class="form-control" placeholder="Enter your name" required></input>
-                            </label>
-                            <label class="form-group col-md-6">
-                              <input type="Email" class="form-control" name="Email" placeholder="Enter your email" required></input>
-                            </label>
-                            <label class="form-group col-12">
-                              <input name="Subject" class="form-control" placeholder="Enter subject" required></input>
-                            </label>
-                            <label class="form-group col-12">
-                              <textarea name="Message" rows="4" class="form-control" placeholder="Enter your message" required></textarea>
-                            </label>
-                            <div class="form-group col-12 d-grid">
-                              <button type="submit" class="btn btn-brand">Contact me</button>
-                            </div>
-                          </form>
+                          
                         </div>
                       </div>
                     </div>

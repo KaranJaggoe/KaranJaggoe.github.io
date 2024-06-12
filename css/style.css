@@ -695,6 +695,7 @@ h3.my-profession{
 
 .contact .contact-form .form-item{
     margin-bottom: 30px;
+    align-items: center;
 }
 
 .contact .contact-form .form-item .form-control{
@@ -714,12 +715,20 @@ h3.my-profession{
 }
 
 .contact .contact-form .form-item textarea.form-control{
-    height: 140px;
+    align-items: center;
+    height: 250px;
+    width: 300px;
 }
 
 .contact .contact-form .btn{
-    height: 50px;
     padding: 0 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: var(--bg-black-100);
+    border: 1px solid var(--bg-black-50);
+    font-size: 16px;
+    color: var(--text-black-700);
+    transition: all 0.3s ease;
 }
 
 @media (max-width:1199px){
